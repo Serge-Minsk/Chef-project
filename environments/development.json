@@ -1,6 +1,6 @@
 {
   "name": "development",
-  "description": "",
+  "description": "development environment",
   "cookbook_versions": {
 
   },
@@ -10,6 +10,9 @@
     "application repo": "http://www.cumulogic.com/download/Apps/guestbookapp.zip"
   },
   "override_attributes": {
-
+    "mysql hostname": "mysqlserver",
+    "port": [
+      "3333"
+    ]
   }
 }
