@@ -10,7 +10,7 @@
     "application repo": "http://www.cumulogic.com/download/Apps/guestbookapp.zip"
   },
   "override_attributes": {
-    "mysql_hostname": "mysqlserver",
+    "mysql_hostname": "MySqlGBDS",
     "port": "3333"
   }
 }
