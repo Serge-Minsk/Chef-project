@@ -7,7 +7,7 @@
   },
   "override_attributes": {
     "mysql_hostname": "MySqlGBDS",
-    "port": "3333"
+    "port": "3306"
   },
   "chef_type": "role",
   "run_list": [

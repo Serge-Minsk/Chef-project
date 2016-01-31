@@ -7,10 +7,11 @@
   },
   "override_attributes": {
     "mysql_hostname": "MySqlGBDS",
-    "port": "3333"
+    "port": "3306"
   },
   "chef_type": "role",
   "run_list": [
+    "recipe[apt]",
     "recipe[jboss6]",
     "recipe[xml_guestbookapp]"
   ],
