@@ -69,6 +69,6 @@ knife bootstrap 127.0.0.1:2222 --ssh-user vagrant --ssh-password vagrant --sudo 
 
 Finally you can check you application on port 8888 on you localhost:
 ~/chef-repo$ curl 127.0.0.1:8888/guestbookapp/
-Or just check url 127.0.0.1:8888/guestbookapp/ in your browser.
+Or just check ulr 127.0.0.1:8888/guestbookapp/ in your browser.
 Thanks
 
